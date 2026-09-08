@@ -184,9 +184,39 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "57fd42dd837c7a5820df2e558fc4c7d8f5e3c409",
     "commitName": "feat: aplicar 15% de descuento para compras de  o mas",
     "commitTimestamp": 1788840715979,
     "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788840932983,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788840963495,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788840976101,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de 6.65% para el estado de UT",
+    "commitTimestamp": 1788840985795,
+    "testId": 9
   }
 ]

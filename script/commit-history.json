@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "57fd42dd837c7a5820df2e558fc4c7d8f5e3c409",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:11:55.000Z",
       "message": "feat: aplicar 15% de descuento para compras de  o mas",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/57fd42dd837c7a5820df2e558fc4c7d8f5e3c409"
     },
     "stats": {
       "total": 8,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:16:24.000Z",
+      "message": "feat: aplicar impuesto de 6.65% para el estado de UT",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

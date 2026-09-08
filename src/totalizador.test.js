@@ -32,4 +32,8 @@ describe("Totalizador de Ventas", () => {
   it("deberia aplicar un 15% de descuento si el subtotal es mayor o igual a $30000", () => {
     expect(totalizar(300, 100)).toEqual(25500);
   });
+
+  it("deberia aplicar el impuesto del 6.65% para el estado de UT", () => {
+    expect(totalizar(10, 10, "UT")).toEqual(106.65);
+  });
 });

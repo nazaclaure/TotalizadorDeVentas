@@ -1,4 +1,4 @@
-function totalizar(cantidad, precio) {
+function totalizar(cantidad, precio, estado = "") {
   if (cantidad <= 0) {
     return "Error: La cantidad debe ser mayor a 0";
   }
@@ -21,7 +21,14 @@ function totalizar(cantidad, precio) {
     descuento = 0.03;
   }
 
-  return subtotal - subtotal * descuento;
+  let subtotalConDescuento = subtotal - subtotal * descuento;
+
+  let impuesto = 0;
+  if (estado === "UT") {
+    impuesto = 0.0665;
+  }
+
+  return subtotalConDescuento + subtotalConDescuento * impuesto;
 }
 
 export default totalizar;
