@@ -12,4 +12,8 @@ describe("Totalizador de Ventas", () => {
   it("deberia retornar mensaje de error si el precio es menor o igual a 0", () => {
     expect(totalizar(5, -10)).toEqual("Error: El precio debe ser mayor a 0");
   });
+
+  it("deberia aplicar un 3% de descuento si el subtotal es mayor o igual a $1000", () => {
+    expect(totalizar(10, 100)).toEqual(970);
+  });
 });

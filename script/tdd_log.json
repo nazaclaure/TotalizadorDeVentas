@@ -66,9 +66,39 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f1507934b55faaf59307ec28d4f7a807826b9f4",
     "commitName": "fix: validar que el precio sea mayor a cero",
     "commitTimestamp": 1788839382024,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788839953716,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788840027140,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788840047544,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 3% de descuento para compras de  o mas",
+    "commitTimestamp": 1788840062749,
+    "testId": 4
   }
 ]

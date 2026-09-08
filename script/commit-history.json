@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4f1507934b55faaf59307ec28d4f7a807826b9f4",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T03:49:41.000Z",
       "message": "fix: validar que el precio sea mayor a cero",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/4f1507934b55faaf59307ec28d4f7a807826b9f4"
     },
     "stats": {
       "total": 8,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:01:01.000Z",
+      "message": "feat: aplicar 3% de descuento para compras de  o mas",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

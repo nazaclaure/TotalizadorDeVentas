@@ -5,7 +5,15 @@ function totalizar(cantidad, precio) {
   if (precio <= 0) {
     return "Error: El precio debe ser mayor a 0";
   }
-  return cantidad * precio;
+
+  let subtotal = cantidad * precio;
+  let descuento = 0;
+
+  if (subtotal >= 1000) {
+    descuento = 0.03;
+  }
+
+  return subtotal - subtotal * descuento;
 }
 
 export default totalizar;
