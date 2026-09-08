@@ -622,9 +622,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d7e0a13008ea9a53dc8fd415d5c10bd712dea3b9",
     "commitName": "feat: aplicar 3% de impuesto adicional para la categoria Muebles",
     "commitTimestamp": 1788903679962,
     "testId": 25
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1788908233819,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1788908448532,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 1% de descuento adicional para la categoria Electronicos",
+    "commitTimestamp": 1788908528934,
+    "testId": 26
   }
 ]

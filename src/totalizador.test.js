@@ -125,4 +125,8 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(10, 100, "CA", "Muebles");
     expect(resultado.impuestoCategoria).toEqual(30);
   });
+  it("deberia aplicar un 1% de descuento adicional para la categoria Electronicos", () => {
+    const resultado = totalizador(10, 100, "CA", "Electronicos");
+    expect(resultado.descuentoCategoria).toEqual(10);
+  });
 });

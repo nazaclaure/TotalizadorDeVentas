@@ -33,6 +33,9 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     porcentajeDescuentoCategoria = 2;
   } else if (categoriaFinal === "Material de escritorio") {
     porcentajeDescuentoCategoria = 1.5;
+  } else if (categoriaFinal === "Electronicos"){
+    porcentajeDescuentoCategoria = 1;
+
   }
   const descuentoCategoria = (precioNeto * porcentajeDescuentoCategoria) / 100;
 
