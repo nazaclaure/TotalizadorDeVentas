@@ -644,9 +644,39 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "31718da919806652edafd8fb7ea230fa11038324",
     "commitName": "feat: aplicar 1% de descuento adicional para la categoria Electronicos",
     "commitTimestamp": 1788908528934,
     "testId": 26
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1788908660672,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1788908905497,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1788908915237,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 4% de impuesto adicional para la categoria Electronicos",
+    "commitTimestamp": 1788908929616,
+    "testId": 27
   }
 ]

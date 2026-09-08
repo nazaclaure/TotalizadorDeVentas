@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "31718da919806652edafd8fb7ea230fa11038324",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T23:02:07.000Z",
       "message": "feat: aplicar 1% de descuento adicional para la categoria Electronicos",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/31718da919806652edafd8fb7ea230fa11038324"
     },
     "stats": {
       "total": 7,
@@ -509,6 +509,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T23:08:48.000Z",
+      "message": "feat: aplicar 4% de impuesto adicional para la categoria Electronicos",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

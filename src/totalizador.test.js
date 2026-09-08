@@ -129,4 +129,8 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(10, 100, "CA", "Electronicos");
     expect(resultado.descuentoCategoria).toEqual(10);
   });
+  it("deberia aplicar un 4% de impuesto adicional para la categoria Electronicos", () => {
+    const resultado = totalizador(10, 100, "CA", "Electronicos");
+    expect(resultado.impuestoCategoria).toEqual(40);
+  });
 });
