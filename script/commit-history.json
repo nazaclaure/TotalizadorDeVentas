@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "615c897a0bb1e9200ae2828a029b2c1739618378",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:04:54.000Z",
       "message": "feat: aplicar 5% de descuento para compras de  o mas",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/615c897a0bb1e9200ae2828a029b2c1739618378"
     },
     "stats": {
       "total": 8,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:07:54.000Z",
+      "message": "feat: aplicar 7% de descuento para compras de  o mas",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
