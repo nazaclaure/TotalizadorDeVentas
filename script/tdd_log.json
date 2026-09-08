@@ -280,9 +280,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0a8949a79e644bfc7b4a32d1e79744f944ed79ae",
     "commitName": "feat: aplicar impuesto de 4% para el estado de AL",
     "commitTimestamp": 1788841221368,
     "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788841249082,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788841288002,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de 8.25% para el estado de CA",
+    "commitTimestamp": 1788841295884,
+    "testId": 13
   }
 ]

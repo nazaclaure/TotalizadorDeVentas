@@ -32,6 +32,8 @@ function totalizar(cantidad, precio, estado = "") {
     impuesto = 0.0625;
   } else if (estado === "AL") {
     impuesto = 0.04;
+  } else if (estado === "CA") {
+    impuesto = 0.0825;
   }
 
   return subtotalConDescuento + subtotalConDescuento * impuesto;
