@@ -61,8 +61,14 @@ describe("Totalizador de Ventas", () => {
     expect(totalizador(100, 10, "TX")).toEqual({
       precioNeto: 1000,
       descuento: 30,
-      impuesto: 60.625,
-      total: 1030.625,
+      impuesto: 62.5,
+      total: 1032.5,
     });
+  });
+
+  it("deberia calcular el impuesto sobre el precio neto independientemente del descuento", () => {
+    const resultado = totalizador(100, 100, "TX");
+    expect(resultado.impuesto).toEqual(625);
+    expect(resultado.total).toEqual(9625);
   });
 });

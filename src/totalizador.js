@@ -42,8 +42,8 @@ function totalizar(cantidad, precio, estado = "") {
     porcentajeImpuesto = 0.0825;
   }
 
-  const impuesto = subtotalConDescuento * porcentajeImpuesto;
-  const total = subtotalConDescuento + impuesto;
+  const impuesto = precioNeto * porcentajeImpuesto;
+  const total = precioNeto + impuesto - descuento;
 
   return {
     precioNeto,

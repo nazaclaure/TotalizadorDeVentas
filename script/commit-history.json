@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3bac238c2d0984c92e14c76e6fdd57fc749ffe73",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:35:33.000Z",
       "message": "refactor: actualizar pruebas unitarias para validar objeto con desglose completo",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/3bac238c2d0984c92e14c76e6fdd57fc749ffe73"
     },
     "stats": {
       "total": 104,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:55:43.000Z",
+      "message": "fix: calcular impuesto sobre el precio neto segun especificaciones del cliente",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

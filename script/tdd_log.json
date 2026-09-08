@@ -368,9 +368,47 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3bac238c2d0984c92e14c76e6fdd57fc749ffe73",
     "commitName": "refactor: actualizar pruebas unitarias para validar objeto con desglose completo",
     "commitTimestamp": 1788842134424,
     "testId": 16
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788843019936,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788843104740,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788843236653,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788843316713,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: calcular impuesto sobre el precio neto segun especificaciones del cliente",
+    "commitTimestamp": 1788843344297,
+    "testId": 17
   }
 ]
