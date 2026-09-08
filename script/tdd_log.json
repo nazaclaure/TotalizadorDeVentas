@@ -22,9 +22,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "079653d08c90a44f7b0d3a623bcff56eb6758435",
     "commitName": "feat: calcular el precio neto base de la compra",
     "commitTimestamp": 1788839096065,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788839170419,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788839219593,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: validar que la cantidad sea mayor a cero",
+    "commitTimestamp": 1788839229597,
+    "testId": 2
   }
 ]
