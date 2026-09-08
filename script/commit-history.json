@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cc2a4f833694defd32f5ac5dc6b051a1439d07cc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T19:39:43.000Z",
       "message": "feat: aplicar 2% de descuento adicional para la categoria Alimentos",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/cc2a4f833694defd32f5ac5dc6b051a1439d07cc"
     },
     "stats": {
       "total": 110,
@@ -414,6 +414,44 @@
     },
     "coverage": 100,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cc2a4f833694defd32f5ac5dc6b051a1439d07cc",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T21:08:16.000Z",
+      "message": "feat: aplicar 7% de impuesto adicional para la categoria Bebidas alcoholicas",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/cc2a4f833694defd32f5ac5dc6b051a1439d07cc"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 22,
+    "failed_tests": 2,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T21:12:06.000Z",
+      "message": "feat: aplicar 7% de impuesto adicional para la categoria Bebidas alcoholicas",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

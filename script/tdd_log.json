@@ -534,9 +534,45 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc2a4f833694defd32f5ac5dc6b051a1439d07cc",
     "commitName": "feat: aplicar 2% de descuento adicional para la categoria Alimentos",
     "commitTimestamp": 1788896385005,
     "testId": 21
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788901567142,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "commitId": "cc2a4f833694defd32f5ac5dc6b051a1439d07cc",
+    "commitName": "feat: aplicar 7% de impuesto adicional para la categoria Bebidas alcoholicas",
+    "commitTimestamp": 1788901697170,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 2,
+    "numTotalTests": 22,
+    "timestamp": 1788901775131,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788901901762,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 7% de impuesto adicional para la categoria Bebidas alcoholicas",
+    "commitTimestamp": 1788901927518,
+    "testId": 23
   }
 ]

@@ -74,6 +74,7 @@ describe("Totalizador de Ventas", () => {
       descuentoCategoria: 0,
       impuesto: 3.75,
       porcentajeImpuesto: 6.25,
+      impuestoCategoria: 0,
       estado: "TX",
       categoria: "Varios",
       total: 63.75,
@@ -90,6 +91,7 @@ describe("Totalizador de Ventas", () => {
       descuentoCategoria: 0,
       impuesto: 62.5,
       porcentajeImpuesto: 6.25,
+      impuestoCategoria: 0,
       estado: "TX",
       categoria: "Varios",
       total: 1032.5,
@@ -108,5 +110,10 @@ describe("Totalizador de Ventas", () => {
   it("deberia aplicar un 2% de descuento adicional para la categoria Alimentos", () => {
     const resultado = totalizador(10, 100, "CA", "Alimentos");
     expect(resultado.descuentoCategoria).toEqual(20);
+  });
+
+  it("deberia aplicar un 7% de impuesto adicional para la categoria Bebidas alcoholicas", () => {
+    const resultado = totalizador(10, 100, "CA", "Bebidas alcoholicas");
+    expect(resultado.impuestoCategoria).toEqual(70);
   });
 });

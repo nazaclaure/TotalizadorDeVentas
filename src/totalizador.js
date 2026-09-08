@@ -34,9 +34,15 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   }
   const descuentoCategoria = (precioNeto * porcentajeDescuentoCategoria) / 100;
 
+  let porcentajeImpuestoCategoria = 0;
+  if (categoriaFinal === "Bebidas alcoholicas") {
+    porcentajeImpuestoCategoria = 7;
+  }
+  const impuestoCategoria = (precioNeto * porcentajeImpuestoCategoria) / 100;
+
   const porcentajeImpuesto = tasasImpuesto[estadoFinal];
   const impuesto = (precioNeto * porcentajeImpuesto) / 100;
-  const total = precioNeto - descuento - descuentoCategoria + impuesto;
+  const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria;
 
   return {
     cantidad,
@@ -47,6 +53,7 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     descuentoCategoria,
     impuesto,
     porcentajeImpuesto,
+    impuestoCategoria,
     estado: estadoFinal,
     categoria: categoriaFinal,
     total,
