@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "92851bfc1afe832489e585edfc80772a2883b22c",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:55:43.000Z",
       "message": "fix: calcular impuesto sobre el precio neto segun especificaciones del cliente",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/92851bfc1afe832489e585edfc80772a2883b22c"
     },
     "stats": {
       "total": 14,
@@ -340,5 +340,24 @@
     "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T05:02:59.000Z",
+      "message": "feat: incluir porcentajes y datos base para despliegue detallado en UI",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 26,
+      "deletions": 6,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 2,
+    "conclusion": "failure"
   }
 ]

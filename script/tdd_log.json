@@ -406,9 +406,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "92851bfc1afe832489e585edfc80772a2883b22c",
     "commitName": "fix: calcular impuesto sobre el precio neto segun especificaciones del cliente",
     "commitTimestamp": 1788843344297,
     "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788843379987,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 2,
+    "numTotalTests": 18,
+    "timestamp": 1788843750933,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir porcentajes y datos base para despliegue detallado en UI",
+    "commitTimestamp": 1788843780546,
+    "testId": 18
   }
 ]

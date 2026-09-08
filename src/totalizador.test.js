@@ -57,18 +57,38 @@ describe("Totalizador de Ventas", () => {
     expect(totalizador(10, 10, "XX")).toEqual("Error: Codigo de estado invalido");
   });
 
-  it("deberia retornar el desglose completo (precio neto, descuento, impuesto y total)", () => {
-    expect(totalizador(100, 10, "TX")).toEqual({
-      precioNeto: 1000,
-      descuento: 30,
-      impuesto: 62.5,
-      total: 1032.5,
-    });
-  });
-
   it("deberia calcular el impuesto sobre el precio neto independientemente del descuento", () => {
     const resultado = totalizador(100, 100, "TX");
     expect(resultado.impuesto).toEqual(625);
     expect(resultado.total).toEqual(9625);
+  });
+
+  it("deberia incluir los porcentajes aplicados y datos base en el objeto retornado", () => {
+    const resultado = totalizador(20, 3, "TX");
+    expect(resultado).toEqual({
+      cantidad: 20,
+      precio: 3,
+      precioNeto: 60,
+      descuento: 0,
+      porcentajeDescuento: 0,
+      impuesto: 3.75,
+      porcentajeImpuesto: 6.25,
+      estado: "TX",
+      total: 63.75,
+    });
+  });
+
+  it("deberia retornar el desglose completo (precio neto, descuento, impuesto y total)", () => {
+    expect(totalizador(100, 10, "TX")).toEqual({
+      cantidad: 100,
+      precio: 10,
+      precioNeto: 1000,
+      descuento: 30,
+      porcentajeDescuento: 3,
+      impuesto: 62.5,
+      porcentajeImpuesto: 6.25,
+      estado: "TX",
+      total: 1032.5,
+    });
   });
 });
