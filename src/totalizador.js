@@ -1,60 +1,54 @@
-function totalizar(cantidad, precio, estado = "") {
-  if (cantidad <= 0) {
-    return "Error: La cantidad debe ser mayor a 0";
-  }
-  if (precio <= 0) {
-    return "Error: El precio debe ser mayor a 0";
-  }
+export default function totalizador(cantidad, precio, estado = "CA", categoria = "Varios") {
+  if (cantidad <= 0) return "Error: La cantidad debe ser mayor a 0";
+  if (precio <= 0) return "Error: El precio debe ser mayor a 0";
 
-  const estadosValidos = ["UT", "NV", "TX", "AL", "CA", ""];
-  if (!estadosValidos.includes(estado)) {
+  const estadoFinal = (!estado || estado.trim() === "") ? "CA" : estado;
+  const categoriaFinal = (!categoria || categoria.trim() === "") ? "Varios" : categoria;
+
+  const tasasImpuesto = {
+    UT: 6.65,
+    NV: 8.0,
+    TX: 6.25,
+    AL: 4.0,
+    CA: 8.25,
+  };
+
+  if (!(estadoFinal in tasasImpuesto)) {
     return "Error: Codigo de estado invalido";
   }
 
   const precioNeto = cantidad * precio;
-
   let porcentajeDescuento = 0;
-  if (precioNeto >= 30000) {
-    porcentajeDescuento = 0.15;
-  } else if (precioNeto >= 10000) {
-    porcentajeDescuento = 0.10;
-  } else if (precioNeto >= 7000) {
-    porcentajeDescuento = 0.07;
-  } else if (precioNeto >= 3000) {
-    porcentajeDescuento = 0.05;
-  } else if (precioNeto >= 1000) {
-    porcentajeDescuento = 0.03;
+
+  if (precioNeto >= 30000) porcentajeDescuento = 15;
+  else if (precioNeto >= 10000) porcentajeDescuento = 10;
+  else if (precioNeto >= 7000) porcentajeDescuento = 7;
+  else if (precioNeto >= 3000) porcentajeDescuento = 5;
+  else if (precioNeto >= 1000) porcentajeDescuento = 3;
+
+  const descuento = (precioNeto * porcentajeDescuento) / 100;
+
+  let porcentajeDescuentoCategoria = 0;
+  if (categoriaFinal === "Alimentos") {
+    porcentajeDescuentoCategoria = 2;
   }
+  const descuentoCategoria = (precioNeto * porcentajeDescuentoCategoria) / 100;
 
-  const descuento = precioNeto * porcentajeDescuento;
-
-  let porcentajeImpuesto = 0;
-  if (estado === "UT") {
-    porcentajeImpuesto = 0.0665;
-  } else if (estado === "NV") {
-    porcentajeImpuesto = 0.08;
-  } else if (estado === "TX") {
-    porcentajeImpuesto = 0.0625;
-  } else if (estado === "AL") {
-    porcentajeImpuesto = 0.04;
-  } else if (estado === "CA") {
-    porcentajeImpuesto = 0.0825;
-  }
-
-  const impuesto = precioNeto * porcentajeImpuesto;
-  const total = precioNeto + impuesto - descuento;
+  const porcentajeImpuesto = tasasImpuesto[estadoFinal];
+  const impuesto = (precioNeto * porcentajeImpuesto) / 100;
+  const total = precioNeto - descuento - descuentoCategoria + impuesto;
 
   return {
     cantidad,
     precio,
     precioNeto,
     descuento,
-    porcentajeDescuento: porcentajeDescuento * 100,
+    porcentajeDescuento,
+    descuentoCategoria,
     impuesto,
-    porcentajeImpuesto: porcentajeImpuesto * 100,
-    estado,
-    total
+    porcentajeImpuesto,
+    estado: estadoFinal,
+    categoria: categoriaFinal,
+    total,
   };
 }
-
-export default totalizar;

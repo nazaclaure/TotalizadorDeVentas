@@ -464,9 +464,79 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a00668a0be09fe2dfe80563f685e1a102fe9abd",
     "commitName": "feat: agregar opcion por defecto en selector de estado para validacion UI",
     "commitTimestamp": 1788845742508,
     "testId": 20
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788872880075,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788877515791,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788877562731,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 8,
+    "numTotalTests": 19,
+    "timestamp": 1788877684167,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788877752374,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788878000259,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 2,
+    "numTotalTests": 20,
+    "timestamp": 1788895722366,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788896371042,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 2% de descuento adicional para la categoria Alimentos",
+    "commitTimestamp": 1788896385005,
+    "testId": 21
   }
 ]

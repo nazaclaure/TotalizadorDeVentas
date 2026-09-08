@@ -2,7 +2,7 @@ import totalizador from "./totalizador";
 
 describe("Totalizador de Ventas", () => {
   it("deberia calcular el precio neto base para 3 items a $10", () => {
-    expect(totalizador(3, 10).total).toEqual(30);
+    expect(totalizador(3, 10).precioNeto).toEqual(30);
   });
 
   it("deberia retornar mensaje de error si la cantidad es menor o igual a 0", () => {
@@ -14,23 +14,23 @@ describe("Totalizador de Ventas", () => {
   });
 
   it("deberia aplicar un 3% de descuento si el subtotal es mayor o igual a $1000", () => {
-    expect(totalizador(10, 100).total).toEqual(970);
+    expect(totalizador(10, 100).descuento).toEqual(30);
   });
 
   it("deberia aplicar un 5% de descuento si el subtotal es mayor o igual a $3000", () => {
-    expect(totalizador(30, 100).total).toEqual(2850);
+    expect(totalizador(30, 100).descuento).toEqual(150);
   });
 
   it("deberia aplicar un 7% de descuento si el subtotal es mayor o igual a $7000", () => {
-    expect(totalizador(70, 100).total).toEqual(6510);
+    expect(totalizador(70, 100).descuento).toEqual(490);
   });
 
   it("deberia aplicar un 10% de descuento si el subtotal es mayor o igual a $10000", () => {
-    expect(totalizador(100, 100).total).toEqual(9000);
+    expect(totalizador(100, 100).descuento).toEqual(1000);
   });
 
   it("deberia aplicar un 15% de descuento si el subtotal es mayor o igual a $30000", () => {
-    expect(totalizador(300, 100).total).toEqual(25500);
+    expect(totalizador(300, 100).descuento).toEqual(4500);
   });
 
   it("deberia aplicar el impuesto del 6.65% para el estado de UT", () => {
@@ -71,9 +71,11 @@ describe("Totalizador de Ventas", () => {
       precioNeto: 60,
       descuento: 0,
       porcentajeDescuento: 0,
+      descuentoCategoria: 0,
       impuesto: 3.75,
       porcentajeImpuesto: 6.25,
       estado: "TX",
+      categoria: "Varios",
       total: 63.75,
     });
   });
@@ -85,10 +87,26 @@ describe("Totalizador de Ventas", () => {
       precioNeto: 1000,
       descuento: 30,
       porcentajeDescuento: 3,
+      descuentoCategoria: 0,
       impuesto: 62.5,
       porcentajeImpuesto: 6.25,
       estado: "TX",
+      categoria: "Varios",
       total: 1032.5,
     });
+  });
+
+  it("deberia asignar CA como estado por defecto si no se selecciona ningun estado", () => {
+    expect(totalizador(10, 10, "").estado).toEqual("CA");
+  });
+
+  it("deberia asignar la categoria Varios por defecto si no se selecciona ninguna", () => {
+    const resultado = totalizador(10, 10, "CA", "");
+    expect(resultado.categoria).toEqual("Varios");
+  });
+
+  it("deberia aplicar un 2% de descuento adicional para la categoria Alimentos", () => {
+    const resultado = totalizador(10, 100, "CA", "Alimentos");
+    expect(resultado.descuentoCategoria).toEqual(20);
   });
 });
