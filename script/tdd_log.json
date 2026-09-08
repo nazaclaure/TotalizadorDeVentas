@@ -324,9 +324,23 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "849c3324af6bb288f617c2b00015c920f68cc31b",
     "commitName": "feat: validar codigo de estado invalido",
     "commitTimestamp": 1788841532774,
     "testId": 14
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788841709461,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar interfaz de usuario con confirmacion, cancelacion y selector de estados",
+    "commitTimestamp": 1788841719307,
+    "testId": 15
   }
 ]

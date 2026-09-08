@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "849c3324af6bb288f617c2b00015c920f68cc31b",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:25:31.000Z",
       "message": "feat: validar codigo de estado invalido",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/849c3324af6bb288f617c2b00015c920f68cc31b"
     },
     "stats": {
       "total": 9,
       "additions": 9,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:28:38.000Z",
+      "message": "feat: conectar interfaz de usuario con confirmacion, cancelacion y selector de estados",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 61,
+      "additions": 43,
+      "deletions": 18,
       "date": "2026-09-08"
     },
     "coverage": 100,
