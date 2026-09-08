@@ -2,6 +2,9 @@ function totalizar(cantidad, precio) {
   if (cantidad <= 0) {
     return "Error: La cantidad debe ser mayor a 0";
   }
+  if (precio <= 0) {
+    return "Error: El precio debe ser mayor a 0";
+  }
   return cantidad * precio;
 }
 
