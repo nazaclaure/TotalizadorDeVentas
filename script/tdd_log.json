@@ -214,9 +214,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95158f1cd89fe67feb8770d3ee2fbf9c3516c3a3",
     "commitName": "feat: aplicar impuesto de 6.65% para el estado de UT",
     "commitTimestamp": 1788840985795,
     "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788841028382,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788841060461,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de 8% para el estado de NV",
+    "commitTimestamp": 1788841069151,
+    "testId": 10
   }
 ]

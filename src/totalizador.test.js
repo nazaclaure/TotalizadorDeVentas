@@ -36,4 +36,8 @@ describe("Totalizador de Ventas", () => {
   it("deberia aplicar el impuesto del 6.65% para el estado de UT", () => {
     expect(totalizar(10, 10, "UT")).toEqual(106.65);
   });
+
+  it("deberia aplicar el impuesto del 8% para el estado de NV", () => {
+    expect(totalizar(10, 10, "NV")).toEqual(108);
+  });
 });
