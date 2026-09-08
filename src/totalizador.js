@@ -9,7 +9,9 @@ function totalizar(cantidad, precio) {
   let subtotal = cantidad * precio;
   let descuento = 0;
 
-  if (subtotal >= 10000) {
+  if (subtotal >= 30000) {
+    descuento = 0.15;
+  } else if (subtotal >= 10000) {
     descuento = 0.10;
   } else if (subtotal >= 7000) {
     descuento = 0.07;
