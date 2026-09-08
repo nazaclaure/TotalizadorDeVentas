@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "db7616bea077dfdf355577f7438f90cb268eacde",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:21:34.000Z",
       "message": "feat: aplicar impuesto de 8.25% para el estado de CA",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/db7616bea077dfdf355577f7438f90cb268eacde"
     },
     "stats": {
       "total": 6,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:25:31.000Z",
+      "message": "feat: validar codigo de estado invalido",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

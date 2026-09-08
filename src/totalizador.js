@@ -6,6 +6,11 @@ function totalizar(cantidad, precio, estado = "") {
     return "Error: El precio debe ser mayor a 0";
   }
 
+  const estadosValidos = ["UT", "NV", "TX", "AL", "CA", ""];
+  if (!estadosValidos.includes(estado)) {
+    return "Error: Codigo de estado invalido";
+  }
+
   let subtotal = cantidad * precio;
   let descuento = 0;
 

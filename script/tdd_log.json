@@ -302,9 +302,31 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db7616bea077dfdf355577f7438f90cb268eacde",
     "commitName": "feat: aplicar impuesto de 8.25% para el estado de CA",
     "commitTimestamp": 1788841295884,
     "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788841485133,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788841524822,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar codigo de estado invalido",
+    "commitTimestamp": 1788841532774,
+    "testId": 14
   }
 ]

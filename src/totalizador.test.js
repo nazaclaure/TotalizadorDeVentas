@@ -52,4 +52,8 @@ describe("Totalizador de Ventas", () => {
   it("deberia aplicar el impuesto del 8.25% para el estado de CA", () => {
     expect(totalizar(10, 10, "CA")).toEqual(108.25);
   });
+
+  it("deberia retornar mensaje de error si el estado es invalido", () => {
+    expect(totalizar(10, 10, "XX")).toEqual("Error: Codigo de estado invalido");
+  });
 });
