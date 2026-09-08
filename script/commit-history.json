@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "36e96d27cde5884348ccc2b7f86e9cdf40b0c655",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:17:48.000Z",
       "message": "feat: aplicar impuesto de 8% para el estado de NV",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/36e96d27cde5884348ccc2b7f86e9cdf40b0c655"
     },
     "stats": {
       "total": 6,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:19:02.000Z",
+      "message": "feat: aplicar impuesto de 6.25% para el estado de TX",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

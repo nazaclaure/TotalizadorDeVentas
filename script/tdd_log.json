@@ -236,9 +236,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "36e96d27cde5884348ccc2b7f86e9cdf40b0c655",
     "commitName": "feat: aplicar impuesto de 8% para el estado de NV",
     "commitTimestamp": 1788841069151,
     "testId": 10
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788841106412,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788841133701,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de 6.25% para el estado de TX",
+    "commitTimestamp": 1788841143407,
+    "testId": 11
   }
 ]
