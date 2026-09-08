@@ -14,8 +14,18 @@ form.addEventListener("submit", (event) => {
   const precio = Number(precioInput.value);
   const estado = estadoSelect.value;
 
-  const resultado = totalizador(cantidad, precio, estado);
-  divResultado.innerHTML = "<p>" + resultado + "</p>";
+  const resultado = totalizar(cantidad, precio, estado);
+
+  if (typeof resultado === "string") {
+    divResultado.innerHTML = "<p>" + resultado + "</p>";
+  } else {
+    divResultado.innerHTML = `
+      <p>Precio neto: $${resultado.precioNeto}</p>
+      <p>Descuento: $${resultado.descuento}</p>
+      <p>Impuesto: $${resultado.impuesto}</p>
+      <p><strong>Total: $${resultado.total}</strong></p>
+    `;
+  }
 });
 
 cancelarBtn.addEventListener("click", () => {

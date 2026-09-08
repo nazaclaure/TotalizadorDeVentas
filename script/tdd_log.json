@@ -338,9 +338,39 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f531cfe45f828dce9cf074c6640fb948f3d66e2",
     "commitName": "feat: conectar interfaz de usuario con confirmacion, cancelacion y selector de estados",
     "commitTimestamp": 1788841719307,
     "testId": 15
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788841881137,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 11,
+    "numTotalTests": 17,
+    "timestamp": 1788842065855,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788842123843,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: actualizar pruebas unitarias para validar objeto con desglose completo",
+    "commitTimestamp": 1788842134424,
+    "testId": 16
   }
 ]

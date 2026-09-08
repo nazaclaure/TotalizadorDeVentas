@@ -11,37 +11,46 @@ function totalizar(cantidad, precio, estado = "") {
     return "Error: Codigo de estado invalido";
   }
 
-  let subtotal = cantidad * precio;
-  let descuento = 0;
+  const precioNeto = cantidad * precio;
 
-  if (subtotal >= 30000) {
-    descuento = 0.15;
-  } else if (subtotal >= 10000) {
-    descuento = 0.10;
-  } else if (subtotal >= 7000) {
-    descuento = 0.07;
-  } else if (subtotal >= 3000) {
-    descuento = 0.05;
-  } else if (subtotal >= 1000) {
-    descuento = 0.03;
+  let porcentajeDescuento = 0;
+  if (precioNeto >= 30000) {
+    porcentajeDescuento = 0.15;
+  } else if (precioNeto >= 10000) {
+    porcentajeDescuento = 0.10;
+  } else if (precioNeto >= 7000) {
+    porcentajeDescuento = 0.07;
+  } else if (precioNeto >= 3000) {
+    porcentajeDescuento = 0.05;
+  } else if (precioNeto >= 1000) {
+    porcentajeDescuento = 0.03;
   }
 
-  let subtotalConDescuento = subtotal - subtotal * descuento;
+  const descuento = precioNeto * porcentajeDescuento;
+  const subtotalConDescuento = precioNeto - descuento;
 
-  let impuesto = 0;
+  let porcentajeImpuesto = 0;
   if (estado === "UT") {
-    impuesto = 0.0665;
+    porcentajeImpuesto = 0.0665;
   } else if (estado === "NV") {
-    impuesto = 0.08;
+    porcentajeImpuesto = 0.08;
   } else if (estado === "TX") {
-    impuesto = 0.0625;
+    porcentajeImpuesto = 0.0625;
   } else if (estado === "AL") {
-    impuesto = 0.04;
+    porcentajeImpuesto = 0.04;
   } else if (estado === "CA") {
-    impuesto = 0.0825;
+    porcentajeImpuesto = 0.0825;
   }
 
-  return subtotalConDescuento + subtotalConDescuento * impuesto;
+  const impuesto = subtotalConDescuento * porcentajeImpuesto;
+  const total = subtotalConDescuento + impuesto;
+
+  return {
+    precioNeto,
+    descuento,
+    impuesto,
+    total
+  };
 }
 
 export default totalizar;

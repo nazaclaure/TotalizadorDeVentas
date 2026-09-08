@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4f531cfe45f828dce9cf074c6640fb948f3d66e2",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T04:28:38.000Z",
       "message": "feat: conectar interfaz de usuario con confirmacion, cancelacion y selector de estados",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/4f531cfe45f828dce9cf074c6640fb948f3d66e2"
     },
     "stats": {
       "total": 61,
@@ -300,6 +300,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T04:35:33.000Z",
+      "message": "refactor: actualizar pruebas unitarias para validar objeto con desglose completo",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 104,
+      "additions": 66,
+      "deletions": 38,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
