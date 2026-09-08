@@ -24,4 +24,8 @@ describe("Totalizador de Ventas", () => {
   it("deberia aplicar un 7% de descuento si el subtotal es mayor o igual a $7000", () => {
     expect(totalizar(70, 100)).toEqual(6510);
   });
+
+  it("deberia aplicar un 10% de descuento si el subtotal es mayor o igual a $10000", () => {
+    expect(totalizar(100, 100)).toEqual(9000);
+  });
 });
