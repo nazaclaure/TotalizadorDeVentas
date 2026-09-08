@@ -39,6 +39,8 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   let porcentajeImpuestoCategoria = 0;
   if (categoriaFinal === "Bebidas alcoholicas") {
     porcentajeImpuestoCategoria = 7;
+  } else if (categoriaFinal === "Muebles") {
+    porcentajeImpuestoCategoria = 3;
   }
   const impuestoCategoria = (precioNeto * porcentajeImpuestoCategoria) / 100;
 

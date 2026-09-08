@@ -121,4 +121,8 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(10, 100, "CA", "Material de escritorio");
     expect(resultado.descuentoCategoria).toEqual(15);
   });
+  it("deberia aplicar un 3% de impuesto adicional para la categoria Muebles", () => {
+    const resultado = totalizador(10, 100, "CA", "Muebles");
+    expect(resultado.impuestoCategoria).toEqual(30);
+  });
 });

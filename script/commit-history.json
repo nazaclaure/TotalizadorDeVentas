@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "74277e1107cb669a3a9d053c4fd0cf9d967d90f4",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T21:33:13.000Z",
       "message": "feat: aplicar 1.5% de descuento adicional para la categoria Material de escritorio",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/74277e1107cb669a3a9d053c4fd0cf9d967d90f4"
     },
     "stats": {
       "total": 7,
@@ -471,6 +471,25 @@
     },
     "coverage": 100,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T21:41:19.000Z",
+      "message": "feat: aplicar 3% de impuesto adicional para la categoria Muebles",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }
