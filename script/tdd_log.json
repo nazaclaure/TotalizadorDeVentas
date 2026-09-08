@@ -450,9 +450,23 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc358ed5ae4ae0268fb62e80ed2d4e4966940423",
     "commitName": "fix: actualizar retorno de totalizador.js con datos base y porcentajes",
     "commitTimestamp": 1788844009131,
     "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788845631612,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar opcion por defecto en selector de estado para validacion UI",
+    "commitTimestamp": 1788845742508,
+    "testId": 20
   }
 ]
