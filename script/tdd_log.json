@@ -1,8 +1,30 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "15249db48549fb1955dc2e68f7acb271b34f0f18",
     "commitName": "docs: agregar lista de rebanadas para la parte 1",
     "commitTimestamp": 1788830865742,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788839018952,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788839064080,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular el precio neto base de la compra",
+    "commitTimestamp": 1788839096065,
+    "testId": 1
   }
 ]

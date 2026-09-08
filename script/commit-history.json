@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "15249db48549fb1955dc2e68f7acb271b34f0f18",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T01:27:44.000Z",
       "message": "docs: agregar lista de rebanadas para la parte 1",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/15249db48549fb1955dc2e68f7acb271b34f0f18"
     },
     "stats": {
       "total": 36,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T03:44:55.000Z",
+      "message": "feat: calcular el precio neto base de la compra",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
