@@ -258,9 +258,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "53914998a343dff5a30cd2cee785019ace2f5001",
     "commitName": "feat: aplicar impuesto de 6.25% para el estado de TX",
     "commitTimestamp": 1788841143407,
     "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788841181884,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788841210373,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de 4% para el estado de AL",
+    "commitTimestamp": 1788841221368,
+    "testId": 12
   }
 ]
