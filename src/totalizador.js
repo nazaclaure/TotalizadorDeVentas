@@ -31,6 +31,8 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   let porcentajeDescuentoCategoria = 0;
   if (categoriaFinal === "Alimentos") {
     porcentajeDescuentoCategoria = 2;
+  } else if (categoriaFinal === "Material de escritorio") {
+    porcentajeDescuentoCategoria = 1.5;
   }
   const descuentoCategoria = (precioNeto * porcentajeDescuentoCategoria) / 100;
 

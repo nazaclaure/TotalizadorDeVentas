@@ -116,4 +116,9 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(10, 100, "CA", "Bebidas alcoholicas");
     expect(resultado.impuestoCategoria).toEqual(70);
   });
+
+  it("deberia aplicar un 1.5% de descuento adicional para la categoria Material de escritorio", () => {
+    const resultado = totalizador(10, 100, "CA", "Material de escritorio");
+    expect(resultado.descuentoCategoria).toEqual(15);
+  });
 });

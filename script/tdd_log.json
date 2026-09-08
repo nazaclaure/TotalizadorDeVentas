@@ -570,9 +570,39 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "10d0fceeb8af7f88f51ff21bc7190a7d787ad0d3",
     "commitName": "feat: aplicar 7% de impuesto adicional para la categoria Bebidas alcoholicas",
     "commitTimestamp": 1788901927518,
     "testId": 23
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788903014942,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788903109505,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788903164989,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 1.5% de descuento adicional para la categoria Material de escritorio",
+    "commitTimestamp": 1788903194469,
+    "testId": 24
   }
 ]
