@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "07b3ccac5e98b6cae61d2f9fb76faf795b5358cc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T05:02:59.000Z",
       "message": "feat: incluir porcentajes y datos base para despliegue detallado en UI",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/07b3ccac5e98b6cae61d2f9fb76faf795b5358cc"
     },
     "stats": {
       "total": 32,
@@ -359,5 +359,24 @@
     "test_count": 18,
     "failed_tests": 2,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-08T05:06:48.000Z",
+      "message": "fix: actualizar retorno de totalizador.js con datos base y porcentajes",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 56,
+      "additions": 33,
+      "deletions": 23,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

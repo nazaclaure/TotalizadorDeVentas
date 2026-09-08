@@ -14,16 +14,16 @@ form.addEventListener("submit", (event) => {
   const precio = Number(precioInput.value);
   const estado = estadoSelect.value;
 
-  const resultado = totalizar(cantidad, precio, estado);
+  const resultado = totalizador(cantidad, precio, estado);
 
   if (typeof resultado === "string") {
     divResultado.innerHTML = "<p>" + resultado + "</p>";
   } else {
     divResultado.innerHTML = `
-      <p>Precio neto: $${resultado.precioNeto}</p>
-      <p>Descuento: $${resultado.descuento}</p>
-      <p>Impuesto: $${resultado.impuesto}</p>
-      <p><strong>Total: $${resultado.total}</strong></p>
+      <p>Precio neto (${resultado.cantidad}*$${resultado.precio}): $${resultado.precioNeto}</p>
+      <p>Descuento (${resultado.porcentajeDescuento}%): $${resultado.descuento}</p>
+      <p>Impuesto para ${resultado.estado}(%${resultado.porcentajeImpuesto}): $${resultado.impuesto}</p>
+      <p>Precio total (descuento e impuesto): $${resultado.total}</p>
     `;
   }
 });

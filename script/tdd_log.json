@@ -428,9 +428,31 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "07b3ccac5e98b6cae61d2f9fb76faf795b5358cc",
     "commitName": "feat: incluir porcentajes y datos base para despliegue detallado en UI",
     "commitTimestamp": 1788843780546,
     "testId": 18
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 2,
+    "numTotalTests": 18,
+    "timestamp": 1788843952994,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788843996923,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: actualizar retorno de totalizador.js con datos base y porcentajes",
+    "commitTimestamp": 1788844009131,
+    "testId": 19
   }
 ]

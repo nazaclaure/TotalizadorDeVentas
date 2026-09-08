@@ -7,25 +7,31 @@
   <body>
     <h1>Totalizador de Ventas</h1>
     <form id="totalizador-form">
-      <label for="cantidad">Cantidad:</label>
-      <input type="number" id="cantidad" />
-
-      <label for="precio">Precio por ítem:</label>
-      <input type="number" id="precio" />
-
-      <label for="estado">Estado:</label>
-      <select id="estado">
-        <option value="UT">UT (6.65%)</option>
-        <option value="NV">NV (8.00%)</option>
-        <option value="TX">TX (6.25%)</option>
-        <option value="AL">AL (4.00%)</option>
-        <option value="CA">CA (8.25%)</option>
-      </select>
-
-      <button type="submit" id="confirmar-btn">Confirmar compra</button>
+      <div>
+        <label for="cantidad">Cantidad de item:</label>
+        <input type="number" id="cantidad" />
+      </div>
+      <br />
+      <div>
+        <label for="precio">Precio por item:</label>
+        <input type="number" id="precio" />
+      </div>
+      <br />
+      <div>
+        <label for="estado">Codigo de estado:</label>
+        <select id="estado">
+          <option value="UT">UT (6.65%)</option>
+          <option value="NV">NV (8.00%)</option>
+          <option value="TX">TX (6.25%)</option>
+          <option value="AL">AL (4.00%)</option>
+          <option value="CA">CA (8.25%)</option>
+        </select>
+      </div>
+      <br />
+      <button type="submit" id="confirmar-btn">Totalizar</button>
       <button type="button" id="cancelar-btn">Cancelar compra</button>
     </form>
-
+    <br />
     <div id="resultado-div"></div>
 
     <script type="module" src="./src/presenter.js"></script>
