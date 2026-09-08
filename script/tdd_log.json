@@ -96,9 +96,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e5bf116eb44cfd55801747f548040a5277ba60e",
     "commitName": "feat: aplicar 3% de descuento para compras de  o mas",
     "commitTimestamp": 1788840062749,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788840239566,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788840281640,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 5% de descuento para compras de  o mas",
+    "commitTimestamp": 1788840295292,
+    "testId": 5
   }
 ]
