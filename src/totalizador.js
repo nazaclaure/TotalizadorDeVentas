@@ -64,6 +64,8 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     costoEnvioPorUnidad = 6;
   } else if (peso >=81 && peso <= 100) {
     costoEnvioPorUnidad = 6.5;
+  } else if (peso >= 101 && peso <=200){
+    costoEnvioPorUnidad = 8;
   }
   const costoEnvio = cantidad * costoEnvioPorUnidad;
 
