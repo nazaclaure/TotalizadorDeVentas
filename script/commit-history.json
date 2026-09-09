@@ -722,17 +722,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d18b8d58cb3d050caa8c87d0b2ac4fad793792a9",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T03:02:35.000Z",
       "message": "feat: agregar input de peso volumetrico en la interfaz",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/d18b8d58cb3d050caa8c87d0b2ac4fad793792a9"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T03:26:47.000Z",
+      "message": "feat: preseleccionar CA como estado por defecto en la interfaz",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-09-09"
     },
     "coverage": 100,

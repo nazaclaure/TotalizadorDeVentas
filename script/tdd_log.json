@@ -884,9 +884,15 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d18b8d58cb3d050caa8c87d0b2ac4fad793792a9",
     "commitName": "feat: agregar input de peso volumetrico en la interfaz",
     "commitTimestamp": 1788922956258,
     "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: preseleccionar CA como estado por defecto en la interfaz",
+    "commitTimestamp": 1788924408416,
+    "testId": 39
   }
 ]
