@@ -67,14 +67,12 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     costoEnvioPorUnidad = 9;
   }
 
-  let porcentajeDescuentoEnvio = 0;
-  if (tipoClienteFinal === "Recurrente") {
-    porcentajeDescuentoEnvio = 0.5;
-  } else if (tipoClienteFinal === "Antiguo Recurrente") {
-    porcentajeDescuentoEnvio = 1;
-  } else if (tipoClienteFinal === "Especial") {
-    porcentajeDescuentoEnvio = 1.5;
-  }
+  const descuentosEnvioPorCliente = {
+    Recurrente: 0.5,
+    "Antiguo Recurrente": 1,
+    Especial: 1.5,
+  };
+  const porcentajeDescuentoEnvio = descuentosEnvioPorCliente[tipoClienteFinal] || 0;
   const costoEnvio = Math.round((cantidad * costoEnvioPorUnidad) * (1 - porcentajeDescuentoEnvio / 100) * 100) / 100;
   let descuentoFijo = 0;
   if (tipoClienteFinal === "Recurrente" && categoriaFinal === "Alimentos" && precioNeto > 3000) {

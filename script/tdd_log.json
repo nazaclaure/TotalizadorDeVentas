@@ -1138,9 +1138,15 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "257c0e8d2009eada1edbe74a67823bdeccf637dc",
     "commitName": "refactor: usar objeto de lookup para impuesto por categoria",
     "commitTimestamp": 1788930480772,
     "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar objeto de lookup para descuento en envio por tipo de cliente",
+    "commitTimestamp": 1788930559928,
+    "testId": 56
   }
 ]
