@@ -1124,9 +1124,23 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9e5af0444b6abab7b9b5756985a1a9e840a3dc9a",
     "commitName": "refactor: usar objeto de lookup para descuento por categoria",
     "commitTimestamp": 1788930408976,
     "testId": 54
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1788930469773,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar objeto de lookup para impuesto por categoria",
+    "commitTimestamp": 1788930480772,
+    "testId": 55
   }
 ]

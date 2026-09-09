@@ -38,16 +38,13 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   const porcentajeDescuentoCategoria = descuentosPorCategoria[categoriaFinal] || 0;
   const descuentoCategoria = (precioNeto * porcentajeDescuentoCategoria) / 100;
 
-  let porcentajeImpuestoCategoria = 0;
-  if (categoriaFinal === "Bebidas alcoholicas") {
-    porcentajeImpuestoCategoria = 7;
-  } else if (categoriaFinal === "Muebles") {
-    porcentajeImpuestoCategoria = 3;
-  } else if (categoriaFinal === "Electronicos") {
-    porcentajeImpuestoCategoria = 4;
-  } else if (categoriaFinal === "Vestimenta") {
-    porcentajeImpuestoCategoria = 2;
-  }
+  const impuestosPorCategoria = {
+    "Bebidas alcoholicas": 7,
+    Muebles: 3,
+    Electronicos: 4,
+    Vestimenta: 2,
+  };
+  const porcentajeImpuestoCategoria = impuestosPorCategoria[categoriaFinal] || 0;
   const impuestoCategoria = (precioNeto * porcentajeImpuestoCategoria) / 100;
 
   const porcentajeImpuesto = tasasImpuesto[estadoFinal];

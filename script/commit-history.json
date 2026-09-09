@@ -1026,17 +1026,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e5af0444b6abab7b9b5756985a1a9e840a3dc9a",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T05:06:47.000Z",
       "message": "refactor: usar objeto de lookup para descuento por categoria",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/9e5af0444b6abab7b9b5756985a1a9e840a3dc9a"
     },
     "stats": {
       "total": 14,
       "additions": 6,
       "deletions": 8,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T05:07:59.000Z",
+      "message": "refactor: usar objeto de lookup para impuesto por categoria",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 7,
+      "deletions": 10,
       "date": "2026-09-09"
     },
     "coverage": 100,
