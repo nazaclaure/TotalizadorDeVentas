@@ -206,4 +206,9 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(80, 100, "CA", "Electronicos", 5, "Especial");
     expect(resultado.descuentoFijo).toEqual(200);
   });
+
+  it("deberia restar el descuento fijo del precio total", () => {
+    const resultado = totalizador(40, 100, "CA", "Alimentos", 5, "Recurrente");
+    expect(resultado.total).toEqual(3950);
+  });
 });

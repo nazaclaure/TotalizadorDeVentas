@@ -1060,9 +1060,31 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e6d1d179d4c03ae4c81c9e9aa58643edb51a0f7",
     "commitName": "feat: calcular descuento fijo de 200 para cliente Especial con categoria Electronicos",
     "commitTimestamp": 1788929001969,
     "testId": 50
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1788929082625,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1788929137050,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: restar descuento fijo del precio total",
+    "commitTimestamp": 1788929162141,
+    "testId": 51
   }
 ]

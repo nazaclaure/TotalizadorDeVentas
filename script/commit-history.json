@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e6d1d179d4c03ae4c81c9e9aa58643edb51a0f7",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T04:43:20.000Z",
       "message": "feat: calcular descuento fijo de 200 para cliente Especial con categoria Electronicos",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/5e6d1d179d4c03ae4c81c9e9aa58643edb51a0f7"
     },
     "stats": {
       "total": 7,
@@ -965,6 +965,25 @@
     },
     "coverage": 100,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T04:46:00.000Z",
+      "message": "feat: restar descuento fijo del precio total",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }

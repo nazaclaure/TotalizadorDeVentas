@@ -86,7 +86,8 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   } else if (tipoClienteFinal === "Especial" && categoriaFinal === "Electronicos" && precioNeto > 7000) {
     descuentoFijo = 200;
   }
-  const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria + costoEnvio;
+  const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria + costoEnvio - descuentoFijo;
+
 
   return {
     cantidad,
