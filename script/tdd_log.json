@@ -866,9 +866,15 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "287176b1af6b71f603f47db06e760c5de42f8552",
     "commitName": "feat: cobrar 9 por unidad de envio para peso volumetrico mayor a 200",
     "commitTimestamp": 1788921807408,
     "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar selector de categoria en la interfaz",
+    "commitTimestamp": 1788922148935,
+    "testId": 36
   }
 ]

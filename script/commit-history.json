@@ -665,16 +665,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "287176b1af6b71f603f47db06e760c5de42f8552",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T02:43:26.000Z",
       "message": "feat: cobrar 9 por unidad de envio para peso volumetrico mayor a 200",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/287176b1af6b71f603f47db06e760c5de42f8552"
     },
     "stats": {
       "total": 7,
       "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T02:49:08.000Z",
+      "message": "feat: agregar selector de categoria en la interfaz",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
       "deletions": 0,
       "date": "2026-09-09"
     },
