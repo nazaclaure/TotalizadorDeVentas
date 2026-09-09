@@ -1038,9 +1038,31 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a3691336d86124f5418c1c089e4df6b6af1a366a",
     "commitName": "feat: calcular descuento fijo de 100 para cliente Recurrente con categoria Alimentos",
     "commitTimestamp": 1788928823117,
     "testId": 49
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1788928880009,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1788928969721,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento fijo de 200 para cliente Especial con categoria Electronicos",
+    "commitTimestamp": 1788929001969,
+    "testId": 50
   }
 ]

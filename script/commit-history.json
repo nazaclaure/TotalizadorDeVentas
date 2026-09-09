@@ -931,12 +931,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a3691336d86124f5418c1c089e4df6b6af1a366a",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T04:40:21.000Z",
       "message": "feat: calcular descuento fijo de 100 para cliente Recurrente con categoria Alimentos",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/a3691336d86124f5418c1c089e4df6b6af1a366a"
     },
     "stats": {
       "total": 10,
@@ -946,6 +946,25 @@
     },
     "coverage": 100,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T04:43:20.000Z",
+      "message": "feat: calcular descuento fijo de 200 para cliente Especial con categoria Electronicos",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }

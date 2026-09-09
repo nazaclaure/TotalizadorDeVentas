@@ -201,4 +201,9 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(40, 100, "CA", "Alimentos", 5, "Recurrente");
     expect(resultado.descuentoFijo).toEqual(100);
   });
+
+  it("deberia aplicar un descuento fijo de $200 si el cliente es Especial, categoria Electronicos y precio neto mayor a 7000", () => {
+    const resultado = totalizador(80, 100, "CA", "Electronicos", 5, "Especial");
+    expect(resultado.descuentoFijo).toEqual(200);
+  });
 });

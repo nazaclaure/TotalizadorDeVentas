@@ -83,6 +83,8 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   let descuentoFijo = 0;
   if (tipoClienteFinal === "Recurrente" && categoriaFinal === "Alimentos" && precioNeto > 3000) {
     descuentoFijo = 100;
+  } else if (tipoClienteFinal === "Especial" && categoriaFinal === "Electronicos" && precioNeto > 7000) {
+    descuentoFijo = 200;
   }
   const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria + costoEnvio;
 
