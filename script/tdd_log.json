@@ -1164,9 +1164,15 @@
     "testId": 57
   },
   {
-    "commitId": "HEAD",
+    "commitId": "30438fdc81797ee84c11b0cb1efc0d5311b3ec82",
     "commitName": "feat: agregar estructura de layout para estilos visuales",
     "commitTimestamp": 1788933018511,
     "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: resetear estado y categoria a su valor por defecto al cancelar compra",
+    "commitTimestamp": 1788933152553,
+    "testId": 59
   }
 ]

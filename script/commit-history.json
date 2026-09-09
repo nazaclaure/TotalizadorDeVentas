@@ -1102,17 +1102,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "30438fdc81797ee84c11b0cb1efc0d5311b3ec82",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T05:50:17.000Z",
       "message": "feat: agregar estructura de layout para estilos visuales",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/30438fdc81797ee84c11b0cb1efc0d5311b3ec82"
     },
     "stats": {
       "total": 215,
       "additions": 158,
       "deletions": 57,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T05:52:31.000Z",
+      "message": "fix: resetear estado y categoria a su valor por defecto al cancelar compra",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-09-09"
     },
     "coverage": 100,
