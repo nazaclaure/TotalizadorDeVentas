@@ -70,8 +70,13 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   } else if (peso > 200) {
     costoEnvioPorUnidad = 9;
   }
-  const costoEnvio = cantidad * costoEnvioPorUnidad;
 
+  let porcentajeDescuentoEnvio = 0;
+  if (tipoClienteFinal === "Recurrente") {
+    porcentajeDescuentoEnvio = 0.5;
+  }
+  const costoEnvio = (cantidad * costoEnvioPorUnidad) * (1 - porcentajeDescuentoEnvio / 100);
+  
   const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria + costoEnvio;
 
   return {

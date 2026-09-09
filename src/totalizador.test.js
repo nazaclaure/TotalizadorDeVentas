@@ -181,4 +181,8 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(2, 50, "CA", "Varios", 5, "");
     expect(resultado.tipoCliente).toEqual("Normal");
   });
+  it("deberia aplicar un 0.5% de descuento en envio para cliente Recurrente", () => {
+    const resultado = totalizador(2, 50, "CA", "Varios", 50, "Recurrente");
+    expect(resultado.costoEnvio).toEqual(11.94);
+  });
 });

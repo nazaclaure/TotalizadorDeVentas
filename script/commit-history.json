@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "91ae840e581ca581f38d84ab2db154c02e608603",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T03:42:21.000Z",
       "message": "feat: asignar Normal como tipo de cliente por defecto",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/91ae840e581ca581f38d84ab2db154c02e608603"
     },
     "stats": {
       "total": 9,
@@ -813,6 +813,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T03:47:46.000Z",
+      "message": "feat: aplicar 0.5% de descuento en envio para cliente Recurrente",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
