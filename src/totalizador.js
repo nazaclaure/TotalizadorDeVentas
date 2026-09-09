@@ -46,6 +46,8 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     porcentajeImpuestoCategoria = 3;
   } else if (categoriaFinal === "Electronicos") {
     porcentajeImpuestoCategoria = 4;
+  } else if (categoriaFinal === "Vestimenta"){
+    porcentajeImpuestoCategoria = 2;
   }
   const impuestoCategoria = (precioNeto * porcentajeImpuestoCategoria) / 100;
 

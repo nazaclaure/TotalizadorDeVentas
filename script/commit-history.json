@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "11b50c66dd4834a240bf77811fc65742de8cd2d3",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-08T23:08:48.000Z",
       "message": "feat: aplicar 4% de impuesto adicional para la categoria Electronicos",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/11b50c66dd4834a240bf77811fc65742de8cd2d3"
     },
     "stats": {
       "total": 6,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T00:16:08.000Z",
+      "message": "feat: aplicar 2% de impuesto adicional para la categoria Vestimenta",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

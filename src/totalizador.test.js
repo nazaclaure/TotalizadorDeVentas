@@ -133,4 +133,8 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(10, 100, "CA", "Electronicos");
     expect(resultado.impuestoCategoria).toEqual(40);
   });
+  it("deberia aplicar un 2% de impuesto adicional para la categoria Vestimenta", () => {
+  const resultado = totalizador(10, 100, "CA", "Vestimenta");
+  expect(resultado.impuestoCategoria).toEqual(20);
+});
 });
