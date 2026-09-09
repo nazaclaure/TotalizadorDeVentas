@@ -1010,9 +1010,15 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "189f21baeb3b88bb1a52eaaf7d29491ffea5c736",
     "commitName": "feat: agregar selector de tipo de cliente en la interfaz",
     "commitTimestamp": 1788928353768,
     "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar selector de tipo de cliente con el calculo y mostrar resultado",
+    "commitTimestamp": 1788928545065,
+    "testId": 48
   }
 ]
