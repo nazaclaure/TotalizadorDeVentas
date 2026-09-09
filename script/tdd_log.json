@@ -1004,9 +1004,15 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "94b0495728e72db96b00c44211f17faca9cd898f",
     "commitName": "feat: aplicar 1.5% de descuento en envio para cliente Especial",
     "commitTimestamp": 1788926408957,
     "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar selector de tipo de cliente en la interfaz",
+    "commitTimestamp": 1788928353768,
+    "testId": 47
   }
 ]

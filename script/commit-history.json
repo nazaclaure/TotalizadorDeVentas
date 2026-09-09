@@ -874,16 +874,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "94b0495728e72db96b00c44211f17faca9cd898f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T04:00:08.000Z",
       "message": "feat: aplicar 1.5% de descuento en envio para cliente Especial",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/94b0495728e72db96b00c44211f17faca9cd898f"
     },
     "stats": {
       "total": 7,
       "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T04:32:32.000Z",
+      "message": "feat: agregar selector de tipo de cliente en la interfaz",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
       "deletions": 0,
       "date": "2026-09-09"
     },
