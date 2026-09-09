@@ -1,3 +1,7 @@
+function redondear(valor) {
+  return Number(valor.toFixed(2));
+}
+
 export default function totalizador(cantidad, precio, estado = "CA", categoria = "Varios", peso = 0, tipoCliente = "Normal") {
   if (cantidad <= 0) return "Error: La cantidad debe ser mayor a 0";
   if (precio <= 0) return "Error: El precio debe ser mayor a 0";
@@ -86,18 +90,18 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   return {
     cantidad,
     precio,
-    precioNeto,
-    descuento,
+    precioNeto: redondear(precioNeto),
+    descuento: redondear(descuento),
     porcentajeDescuento,
-    descuentoCategoria,
-    impuesto,
+    descuentoCategoria: redondear(descuentoCategoria),
+    impuesto: redondear(impuesto),
     porcentajeImpuesto,
-    impuestoCategoria,
+    impuestoCategoria: redondear(impuestoCategoria),
     costoEnvio,
     descuentoFijo,
     tipoCliente: tipoClienteFinal,
     estado: estadoFinal,
     categoria: categoriaFinal,
-    total,
+    total: redondear(total),
   };
 }

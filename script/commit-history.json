@@ -1064,17 +1064,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a12bb7f3999d49361ac6d7e10ff5474d3061b4d2",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T05:09:18.000Z",
       "message": "refactor: usar objeto de lookup para descuento en envio por tipo de cliente",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/a12bb7f3999d49361ac6d7e10ff5474d3061b4d2"
     },
     "stats": {
       "total": 14,
       "additions": 6,
       "deletions": 8,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T05:34:36.000Z",
+      "message": "refactor: redondear todos los valores monetarios a 2 decimales",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 10,
+      "deletions": 6,
       "date": "2026-09-09"
     },
     "coverage": 100,

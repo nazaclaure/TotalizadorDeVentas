@@ -1144,9 +1144,23 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a12bb7f3999d49361ac6d7e10ff5474d3061b4d2",
     "commitName": "refactor: usar objeto de lookup para descuento en envio por tipo de cliente",
     "commitTimestamp": 1788930559928,
     "testId": 56
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1788932051462,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: redondear todos los valores monetarios a 2 decimales",
+    "commitTimestamp": 1788932077456,
+    "testId": 57
   }
 ]
