@@ -878,9 +878,15 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8c9f3c0d2ce035260732163ffd40e7d4af6690b7",
     "commitName": "feat: conectar selector de categoria con el calculo y mostrar resultado",
     "commitTimestamp": 1788922530828,
     "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar input de peso volumetrico en la interfaz",
+    "commitTimestamp": 1788922956258,
+    "testId": 38
   }
 ]

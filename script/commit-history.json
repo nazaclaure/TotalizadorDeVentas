@@ -703,17 +703,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8c9f3c0d2ce035260732163ffd40e7d4af6690b7",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T02:55:29.000Z",
       "message": "feat: conectar selector de categoria con el calculo y mostrar resultado",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/8c9f3c0d2ce035260732163ffd40e7d4af6690b7"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T03:02:35.000Z",
+      "message": "feat: agregar input de peso volumetrico en la interfaz",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
       "date": "2026-09-09"
     },
     "coverage": 100,
