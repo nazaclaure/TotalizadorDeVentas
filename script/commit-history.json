@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6eaf5ba3c488e2e37c041a3aae0ed6a145f9bf37",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T03:52:09.000Z",
       "message": "feat: aplicar 1% de descuento en envio para cliente Antiguo Recurrente",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/6eaf5ba3c488e2e37c041a3aae0ed6a145f9bf37"
     },
     "stats": {
       "total": 8,
@@ -853,5 +853,24 @@
     "test_count": 37,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T03:56:15.000Z",
+      "message": "fix: redondear costo de envio a 2 decimales para evitar errores de precision",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 1,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

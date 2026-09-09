@@ -968,9 +968,23 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6eaf5ba3c488e2e37c041a3aae0ed6a145f9bf37",
     "commitName": "feat: aplicar 1% de descuento en envio para cliente Antiguo Recurrente",
     "commitTimestamp": 1788925930411,
     "testId": 44
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1788926166442,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: redondear costo de envio a 2 decimales para evitar errores de precision",
+    "commitTimestamp": 1788926176137,
+    "testId": 45
   }
 ]

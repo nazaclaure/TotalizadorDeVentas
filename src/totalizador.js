@@ -77,8 +77,7 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
   } else if (tipoClienteFinal === "Antiguo Recurrente") {
     porcentajeDescuentoEnvio = 1;
   }
-  const costoEnvio = (cantidad * costoEnvioPorUnidad) * (1 - porcentajeDescuentoEnvio / 100);
-  
+  const costoEnvio = Math.round((cantidad * costoEnvioPorUnidad) * (1 - porcentajeDescuentoEnvio / 100) * 100) / 100;
   const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria + costoEnvio;
 
   return {
