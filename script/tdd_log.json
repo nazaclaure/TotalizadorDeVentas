@@ -844,9 +844,31 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "46af383d4aee6c9bc252bf4c2571c9aae80639a4",
     "commitName": "feat: cobrar 8 por unidad de envio para peso volumetrico entre 101 y 200",
     "commitTimestamp": 1788920651208,
     "testId": 34
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1788921573229,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1788921757373,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cobrar 9 por unidad de envio para peso volumetrico mayor a 200",
+    "commitTimestamp": 1788921807408,
+    "testId": 35
   }
 ]

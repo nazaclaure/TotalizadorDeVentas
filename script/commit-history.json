@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "46af383d4aee6c9bc252bf4c2571c9aae80639a4",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T02:24:10.000Z",
       "message": "feat: cobrar 8 por unidad de envio para peso volumetrico entre 101 y 200",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/46af383d4aee6c9bc252bf4c2571c9aae80639a4"
     },
     "stats": {
       "total": 7,
@@ -661,6 +661,25 @@
     },
     "coverage": 100,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T02:43:26.000Z",
+      "message": "feat: cobrar 9 por unidad de envio para peso volumetrico mayor a 200",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

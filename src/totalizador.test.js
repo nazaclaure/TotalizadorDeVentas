@@ -171,4 +171,9 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(2, 15, "CA", "Varios", 150);
     expect(resultado.costoEnvio).toEqual(16);
   });
+
+  it("deberia cobrar $9 por unidad de costo de envio si el peso volumetrico es mayor a 200", () => {
+    const resultado = totalizador(3, 20, "CA", "Varios", 250);
+    expect(resultado.costoEnvio).toEqual(27);
+  });
 });
