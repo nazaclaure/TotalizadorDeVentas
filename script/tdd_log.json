@@ -872,9 +872,15 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2d18b4d1874cae612e52bbae93f740b39330e529",
     "commitName": "feat: agregar selector de categoria en la interfaz",
     "commitTimestamp": 1788922148935,
     "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar selector de categoria con el calculo y mostrar resultado",
+    "commitTimestamp": 1788922530828,
+    "testId": 37
   }
 ]

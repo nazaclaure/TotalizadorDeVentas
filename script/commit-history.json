@@ -684,17 +684,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2d18b4d1874cae612e52bbae93f740b39330e529",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T02:49:08.000Z",
       "message": "feat: agregar selector de categoria en la interfaz",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/2d18b4d1874cae612e52bbae93f740b39330e529"
     },
     "stats": {
       "total": 14,
       "additions": 14,
       "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T02:55:29.000Z",
+      "message": "feat: conectar selector de categoria con el calculo y mostrar resultado",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
       "date": "2026-09-09"
     },
     "coverage": 100,
