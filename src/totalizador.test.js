@@ -191,4 +191,9 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(2, 50, "CA", "Varios", 50, "Antiguo Recurrente");
     expect(resultado.costoEnvio).toEqual(11.88);
   });
+
+  it("deberia aplicar un 1.5% de descuento en envio para cliente Especial", () => {
+    const resultado = totalizador(2, 50, "CA", "Varios", 50, "Especial");
+    expect(resultado.costoEnvio).toEqual(11.82);
+  });
 });

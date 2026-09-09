@@ -982,9 +982,31 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ab023559c2d2833894c44bb349ae3caa5838c6ff",
     "commitName": "fix: redondear costo de envio a 2 decimales para evitar errores de precision",
     "commitTimestamp": 1788926176137,
     "testId": 45
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 1,
+    "numTotalTests": 38,
+    "timestamp": 1788926310850,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1788926377885,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 1.5% de descuento en envio para cliente Especial",
+    "commitTimestamp": 1788926408957,
+    "testId": 46
   }
 ]
