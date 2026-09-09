@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "32a86aa498dc57fa65607347634129208a4d4e12",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T00:44:21.000Z",
       "message": "refactor: usar toMatchObject en desglose y agregar costo de envio  para peso entre 0 y 10",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/32a86aa498dc57fa65607347634129208a4d4e12"
     },
     "stats": {
       "total": 36,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T01:26:09.000Z",
+      "message": "feat: cobrar 3.5 por unidad de envio para peso volumetrico entre 11 y 20",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

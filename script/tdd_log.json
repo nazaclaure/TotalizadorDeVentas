@@ -734,9 +734,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32a86aa498dc57fa65607347634129208a4d4e12",
     "commitName": "refactor: usar toMatchObject en desglose y agregar costo de envio  para peso entre 0 y 10",
     "commitTimestamp": 1788914662883,
     "testId": 29
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 1,
+    "numTotalTests": 29,
+    "timestamp": 1788916629775,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1788917138134,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cobrar 3.5 por unidad de envio para peso volumetrico entre 11 y 20",
+    "commitTimestamp": 1788917170876,
+    "testId": 30
   }
 ]
