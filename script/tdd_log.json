@@ -890,9 +890,15 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ce1ad8a68d4f463c5bb11b48b7d128da7a7e00ee",
     "commitName": "feat: preseleccionar CA como estado por defecto en la interfaz",
     "commitTimestamp": 1788924408416,
     "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: preseleccionar Varios como categoria por defecto en la interfaz",
+    "commitTimestamp": 1788924516821,
+    "testId": 40
   }
 ]

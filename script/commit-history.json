@@ -741,11 +741,30 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ce1ad8a68d4f463c5bb11b48b7d128da7a7e00ee",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T03:26:47.000Z",
       "message": "feat: preseleccionar CA como estado por defecto en la interfaz",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/ce1ad8a68d4f463c5bb11b48b7d128da7a7e00ee"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T03:28:35.000Z",
+      "message": "feat: preseleccionar Varios como categoria por defecto en la interfaz",
       "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
     },
     "stats": {
