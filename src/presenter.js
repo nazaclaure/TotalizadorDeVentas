@@ -4,6 +4,7 @@ const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
 const estadoSelect = document.querySelector("#estado");
 const categoriaSelect = document.querySelector("#categoria");
+const pesoInput = document.querySelector("#peso");
 const form = document.querySelector("#totalizador-form");
 const cancelarBtn = document.querySelector("#cancelar-btn");
 const divResultado = document.querySelector("#resultado-div");
@@ -15,8 +16,9 @@ form.addEventListener("submit", (event) => {
   const precio = Number(precioInput.value);
   const estado = estadoSelect.value;
   const categoria = categoriaSelect.value;
+  const peso = Number(pesoInput.value);
 
-  const resultado = totalizador(cantidad, precio, estado, categoria);
+  const resultado = totalizador(cantidad, precio, estado, categoria, peso);
 
   if (typeof resultado === "string") {
     divResultado.innerHTML = "<p>" + resultado + "</p>";
@@ -27,6 +29,7 @@ form.addEventListener("submit", (event) => {
       <p>Descuento por categoria (${resultado.categoria}): $${resultado.descuentoCategoria}</p>
       <p>Impuesto para ${resultado.estado}(%${resultado.porcentajeImpuesto}): $${resultado.impuesto}</p>
       <p>Impuesto adicional por categoria (${resultado.categoria}): $${resultado.impuestoCategoria}</p>
+      <p>Costo de envio: $${resultado.costoEnvio}</p>
       <p>Precio total (descuento e impuesto): $${resultado.total}</p>
     `;
   }
@@ -37,5 +40,6 @@ cancelarBtn.addEventListener("click", () => {
   precioInput.value = "";
   estadoSelect.selectedIndex = 0;
   categoriaSelect.selectedIndex = 0;
+  pesoInput.value = "0";
   divResultado.innerHTML = "<p>Compra cancelada</p>";
 });

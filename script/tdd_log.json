@@ -896,9 +896,15 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a65b8caee458bafa670de98c18f64c3138a587fb",
     "commitName": "feat: preseleccionar Varios como categoria por defecto en la interfaz",
     "commitTimestamp": 1788924516821,
     "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar input de peso con el calculo y mostrar costo de envio",
+    "commitTimestamp": 1788925071620,
+    "testId": 41
   }
 ]

@@ -760,16 +760,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a65b8caee458bafa670de98c18f64c3138a587fb",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T03:28:35.000Z",
       "message": "feat: preseleccionar Varios como categoria por defecto en la interfaz",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/a65b8caee458bafa670de98c18f64c3138a587fb"
     },
     "stats": {
       "total": 2,
       "additions": 1,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T03:37:50.000Z",
+      "message": "feat: conectar input de peso con el calculo y mostrar costo de envio",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
       "deletions": 1,
       "date": "2026-09-09"
     },
