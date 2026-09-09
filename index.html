@@ -3,66 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <title>Totalizador de Ventas</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <h1>Totalizador de Ventas</h1>
-    <form id="totalizador-form">
-      <div>
-        <label for="cantidad">Cantidad de item:</label>
-        <input type="number" id="cantidad" />
-      </div>
-      <br />
-      <div>
-        <label for="precio">Precio por item:</label>
-        <input type="number" id="precio" />
-      </div>
-      <br />
-      <div>
-        <label for="estado">Codigo de estado:</label>
-        <select id="estado">
-          <option value="">-- Seleccione un estado --</option>
-          <option value="UT">UT (6.65%)</option>
-          <option value="NV">NV (8.00%)</option>
-          <option value="TX">TX (6.25%)</option>
-          <option value="AL">AL (4.00%)</option>
-          <option value="CA" selected>CA (8.25%)</option>
-        </select>
-      </div>
-            <br />
-      <div>
-        <label for="categoria">Categoria de producto:</label>
-        <select id="categoria">
-          <option value="">-- Seleccione una categoria --</option>
-          <option value="Alimentos">Alimentos</option>
-          <option value="Bebidas alcoholicas">Bebidas alcoholicas</option>
-          <option value="Material de escritorio">Material de escritorio</option>
-          <option value="Muebles">Muebles</option>
-          <option value="Electronicos">Electronicos</option>
-          <option value="Vestimenta">Vestimenta</option>
-          <option value="Varios" selected>Varios</option>
-        </select>
-      </div>
-            <br />
-      <div>
-        <label for="peso">Peso volumetrico:</label>
-        <input type="number" id="peso" value="0" />
-      </div>
-            <br />
-      <div>
-        <label for="tipoCliente">Tipo de cliente:</label>
-        <select id="tipoCliente">
-          <option value="Recurrente">Recurrente</option>
-          <option value="Antiguo Recurrente">Antiguo Recurrente</option>
-          <option value="Especial">Especial</option>
-          <option value="Normal" selected>Normal</option>
-        </select>
-      </div>
-      <br />
-      <button type="submit" id="confirmar-btn">Totalizar</button>
-      <button type="button" id="cancelar-btn">Cancelar compra</button>
-    </form>
-    <br />
-    <div id="resultado-div"></div>
+    <div class="layout">
+      <form id="totalizador-form">
+        <div>
+          <label for="cantidad">Cantidad de item:</label>
+          <input type="number" id="cantidad" />
+        </div>
+        <br />
+        <div>
+          <label for="precio">Precio por item:</label>
+          <input type="number" id="precio" />
+        </div>
+        <br />
+        <div>
+          <label for="estado">Codigo de estado:</label>
+          <select id="estado">
+            <option value="">-- Seleccione un estado --</option>
+            <option value="UT">UT (6.65%)</option>
+            <option value="NV">NV (8.00%)</option>
+            <option value="TX">TX (6.25%)</option>
+            <option value="AL">AL (4.00%)</option>
+            <option value="CA" selected>CA (8.25%)</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="categoria">Categoria de producto:</label>
+          <select id="categoria">
+            <option value="">-- Seleccione una categoria --</option>
+            <option value="Alimentos">Alimentos</option>
+            <option value="Bebidas alcoholicas">Bebidas alcoholicas</option>
+            <option value="Material de escritorio">Material de escritorio</option>
+            <option value="Muebles">Muebles</option>
+            <option value="Electronicos">Electronicos</option>
+            <option value="Vestimenta">Vestimenta</option>
+            <option value="Varios" selected>Varios</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="peso">Peso volumetrico:</label>
+          <input type="number" id="peso" value="0" />
+        </div>
+        <br />
+        <div>
+          <label for="tipoCliente">Tipo de cliente:</label>
+          <select id="tipoCliente">
+            <option value="Recurrente">Recurrente</option>
+            <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+            <option value="Especial">Especial</option>
+            <option value="Normal" selected>Normal</option>
+          </select>
+        </div>
+        <br />
+        <button type="submit" id="confirmar-btn">Totalizar</button>
+        <button type="button" id="cancelar-btn">Cancelar compra</button>
+      </form>
+      <div id="resultado-div"></div>
+    </div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
