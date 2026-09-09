@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f016acfa7aae727c124a637ba6c583b0bc421f2a",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T04:50:15.000Z",
       "message": "feat: mostrar descuento fijo especial en la interfaz",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/f016acfa7aae727c124a637ba6c583b0bc421f2a"
     },
     "stats": {
       "total": 1,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 100,
     "test_count": 41,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T04:55:29.000Z",
+      "message": "feat: validar que el peso volumetrico no sea negativo",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
     "failed_tests": 0,
     "conclusion": "success"
   }

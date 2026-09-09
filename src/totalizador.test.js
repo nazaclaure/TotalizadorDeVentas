@@ -211,4 +211,8 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(40, 100, "CA", "Alimentos", 5, "Recurrente");
     expect(resultado.total).toEqual(3950);
   });
+
+  it("deberia retornar mensaje de error si el peso volumetrico es menor a 0", () => {
+    expect(totalizador(10, 10, "CA", "Varios", -5)).toEqual("Error: El peso volumetrico debe ser mayor o igual a 0");
+  });
 });

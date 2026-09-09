@@ -1088,9 +1088,31 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f016acfa7aae727c124a637ba6c583b0bc421f2a",
     "commitName": "feat: mostrar descuento fijo especial en la interfaz",
     "commitTimestamp": 1788929416982,
     "testId": 52
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1788929657795,
+    "success": false,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1788929720186,
+    "success": true,
+    "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que el peso volumetrico no sea negativo",
+    "commitTimestamp": 1788929731124,
+    "testId": 53
   }
 ]
