@@ -1016,9 +1016,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f417edcdcbbf2827d253838450d79848a535f05",
     "commitName": "feat: conectar selector de tipo de cliente con el calculo y mostrar resultado",
     "commitTimestamp": 1788928545065,
     "testId": 48
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1788928665470,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1788928800514,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento fijo de 100 para cliente Recurrente con categoria Alimentos",
+    "commitTimestamp": 1788928823117,
+    "testId": 49
   }
 ]

@@ -196,4 +196,9 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(2, 50, "CA", "Varios", 50, "Especial");
     expect(resultado.costoEnvio).toEqual(11.82);
   });
+
+  it("deberia aplicar un descuento fijo de $100 si el cliente es Recurrente, categoria Alimentos y precio neto mayor a 3000", () => {
+    const resultado = totalizador(40, 100, "CA", "Alimentos", 5, "Recurrente");
+    expect(resultado.descuentoFijo).toEqual(100);
+  });
 });

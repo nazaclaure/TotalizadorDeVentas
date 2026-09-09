@@ -912,12 +912,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4f417edcdcbbf2827d253838450d79848a535f05",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T04:35:43.000Z",
       "message": "feat: conectar selector de tipo de cliente con el calculo y mostrar resultado",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/4f417edcdcbbf2827d253838450d79848a535f05"
     },
     "stats": {
       "total": 7,
@@ -927,6 +927,25 @@
     },
     "coverage": 100,
     "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T04:40:21.000Z",
+      "message": "feat: calcular descuento fijo de 100 para cliente Recurrente con categoria Alimentos",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }

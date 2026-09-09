@@ -80,6 +80,10 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     porcentajeDescuentoEnvio = 1.5;
   }
   const costoEnvio = Math.round((cantidad * costoEnvioPorUnidad) * (1 - porcentajeDescuentoEnvio / 100) * 100) / 100;
+  let descuentoFijo = 0;
+  if (tipoClienteFinal === "Recurrente" && categoriaFinal === "Alimentos" && precioNeto > 3000) {
+    descuentoFijo = 100;
+  }
   const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria + costoEnvio;
 
   return {
@@ -93,6 +97,7 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     porcentajeImpuesto,
     impuestoCategoria,
     costoEnvio,
+    descuentoFijo,
     tipoCliente: tipoClienteFinal,
     estado: estadoFinal,
     categoria: categoriaFinal,
