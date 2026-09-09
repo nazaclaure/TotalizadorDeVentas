@@ -1110,9 +1110,23 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fdcae02a1e74ddfc7fa8f77a8fe4c0974a331091",
     "commitName": "feat: validar que el peso volumetrico no sea negativo",
     "commitTimestamp": 1788929731124,
     "testId": 53
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1788930397421,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar objeto de lookup para descuento por categoria",
+    "commitTimestamp": 1788930408976,
+    "testId": 54
   }
 ]

@@ -1007,17 +1007,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fdcae02a1e74ddfc7fa8f77a8fe4c0974a331091",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T04:55:29.000Z",
       "message": "feat: validar que el peso volumetrico no sea negativo",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/fdcae02a1e74ddfc7fa8f77a8fe4c0974a331091"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T05:06:47.000Z",
+      "message": "refactor: usar objeto de lookup para descuento por categoria",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 6,
+      "deletions": 8,
       "date": "2026-09-09"
     },
     "coverage": 100,
