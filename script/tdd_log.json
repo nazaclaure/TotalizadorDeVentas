@@ -902,9 +902,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8650891c9a74ccb39d0012dacd5d49f5c46057e9",
     "commitName": "feat: conectar input de peso con el calculo y mostrar costo de envio",
     "commitTimestamp": 1788925071620,
     "testId": 41
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1788925187790,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1788925326644,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: asignar Normal como tipo de cliente por defecto",
+    "commitTimestamp": 1788925342000,
+    "testId": 42
   }
 ]

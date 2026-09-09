@@ -176,4 +176,9 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(3, 20, "CA", "Varios", 250);
     expect(resultado.costoEnvio).toEqual(27);
   });
+
+  it("deberia asignar Normal como tipo de cliente por defecto si no se selecciona ninguno", () => {
+    const resultado = totalizador(2, 50, "CA", "Varios", 5, "");
+    expect(resultado.tipoCliente).toEqual("Normal");
+  });
 });

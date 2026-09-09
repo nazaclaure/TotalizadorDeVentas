@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8650891c9a74ccb39d0012dacd5d49f5c46057e9",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T03:37:50.000Z",
       "message": "feat: conectar input de peso con el calculo y mostrar costo de envio",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/8650891c9a74ccb39d0012dacd5d49f5c46057e9"
     },
     "stats": {
       "total": 6,
@@ -794,6 +794,25 @@
     },
     "coverage": 100,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T03:42:21.000Z",
+      "message": "feat: asignar Normal como tipo de cliente por defecto",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

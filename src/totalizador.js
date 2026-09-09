@@ -1,9 +1,10 @@
-export default function totalizador(cantidad, precio, estado = "CA", categoria = "Varios", peso = 0) {
+export default function totalizador(cantidad, precio, estado = "CA", categoria = "Varios", peso = 0, tipoCliente = "Normal") {
   if (cantidad <= 0) return "Error: La cantidad debe ser mayor a 0";
   if (precio <= 0) return "Error: El precio debe ser mayor a 0";
 
   const estadoFinal = (!estado || estado.trim() === "") ? "CA" : estado;
   const categoriaFinal = (!categoria || categoria.trim() === "") ? "Varios" : categoria;
+  const tipoClienteFinal = (!tipoCliente || tipoCliente.trim() === "") ? "Normal" : tipoCliente;
 
   const tasasImpuesto = {
     UT: 6.65,
@@ -84,6 +85,7 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     porcentajeImpuesto,
     impuestoCategoria,
     costoEnvio,
+    tipoCliente: tipoClienteFinal,
     estado: estadoFinal,
     categoria: categoriaFinal,
     total,
