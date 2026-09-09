@@ -969,17 +969,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fb1a2c425004330681c78c95dedac9eee11814d1",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T04:46:00.000Z",
       "message": "feat: restar descuento fijo del precio total",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/fb1a2c425004330681c78c95dedac9eee11814d1"
     },
     "stats": {
       "total": 8,
       "additions": 7,
       "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 41,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T04:50:15.000Z",
+      "message": "feat: mostrar descuento fijo especial en la interfaz",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
       "date": "2026-09-09"
     },
     "coverage": 100,

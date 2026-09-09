@@ -1082,9 +1082,15 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fb1a2c425004330681c78c95dedac9eee11814d1",
     "commitName": "feat: restar descuento fijo del precio total",
     "commitTimestamp": 1788929162141,
     "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento fijo especial en la interfaz",
+    "commitTimestamp": 1788929416982,
+    "testId": 52
   }
 ]
