@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "af313fb842fe612ae5f5f57b665cd09d1670f2ea",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T00:16:08.000Z",
       "message": "feat: aplicar 2% de impuesto adicional para la categoria Vestimenta",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/af313fb842fe612ae5f5f57b665cd09d1670f2ea"
     },
     "stats": {
       "total": 6,
@@ -547,6 +547,25 @@
     },
     "coverage": 100,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-09T00:44:21.000Z",
+      "message": "refactor: usar toMatchObject en desglose y agregar costo de envio  para peso entre 0 y 10",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 26,
+      "deletions": 10,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

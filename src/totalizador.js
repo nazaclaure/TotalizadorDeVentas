@@ -1,4 +1,4 @@
-export default function totalizador(cantidad, precio, estado = "CA", categoria = "Varios") {
+export default function totalizador(cantidad, precio, estado = "CA", categoria = "Varios", peso = 0) {
   if (cantidad <= 0) return "Error: La cantidad debe ser mayor a 0";
   if (precio <= 0) return "Error: El precio debe ser mayor a 0";
 
@@ -33,9 +33,8 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     porcentajeDescuentoCategoria = 2;
   } else if (categoriaFinal === "Material de escritorio") {
     porcentajeDescuentoCategoria = 1.5;
-  } else if (categoriaFinal === "Electronicos"){
+  } else if (categoriaFinal === "Electronicos") {
     porcentajeDescuentoCategoria = 1;
-
   }
   const descuentoCategoria = (precioNeto * porcentajeDescuentoCategoria) / 100;
 
@@ -46,14 +45,21 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     porcentajeImpuestoCategoria = 3;
   } else if (categoriaFinal === "Electronicos") {
     porcentajeImpuestoCategoria = 4;
-  } else if (categoriaFinal === "Vestimenta"){
+  } else if (categoriaFinal === "Vestimenta") {
     porcentajeImpuestoCategoria = 2;
   }
   const impuestoCategoria = (precioNeto * porcentajeImpuestoCategoria) / 100;
 
   const porcentajeImpuesto = tasasImpuesto[estadoFinal];
   const impuesto = (precioNeto * porcentajeImpuesto) / 100;
-  const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria;
+
+  let costoEnvioPorUnidad = 0;
+  if (peso >= 0 && peso <= 10) {
+    costoEnvioPorUnidad = 0;
+  }
+  const costoEnvio = cantidad * costoEnvioPorUnidad;
+
+  const total = precioNeto - descuento - descuentoCategoria + impuesto + impuestoCategoria + costoEnvio;
 
   return {
     cantidad,
@@ -65,6 +71,7 @@ export default function totalizador(cantidad, precio, estado = "CA", categoria =
     impuesto,
     porcentajeImpuesto,
     impuestoCategoria,
+    costoEnvio,
     estado: estadoFinal,
     categoria: categoriaFinal,
     total,

@@ -704,9 +704,39 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "af313fb842fe612ae5f5f57b665cd09d1670f2ea",
     "commitName": "feat: aplicar 2% de impuesto adicional para la categoria Vestimenta",
     "commitTimestamp": 1788912969940,
     "testId": 28
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1788913717076,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 2,
+    "numTotalTests": 28,
+    "timestamp": 1788914478886,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788914654350,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar toMatchObject en desglose y agregar costo de envio  para peso entre 0 y 10",
+    "commitTimestamp": 1788914662883,
+    "testId": 29
   }
 ]

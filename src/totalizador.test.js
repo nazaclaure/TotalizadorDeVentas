@@ -65,7 +65,7 @@ describe("Totalizador de Ventas", () => {
 
   it("deberia incluir los porcentajes aplicados y datos base en el objeto retornado", () => {
     const resultado = totalizador(20, 3, "TX");
-    expect(resultado).toEqual({
+    expect(resultado).toMatchObject({
       cantidad: 20,
       precio: 3,
       precioNeto: 60,
@@ -82,7 +82,7 @@ describe("Totalizador de Ventas", () => {
   });
 
   it("deberia retornar el desglose completo (precio neto, descuento, impuesto y total)", () => {
-    expect(totalizador(100, 10, "TX")).toEqual({
+    expect(totalizador(100, 10, "TX")).toMatchObject({
       cantidad: 100,
       precio: 10,
       precioNeto: 1000,
@@ -121,20 +121,29 @@ describe("Totalizador de Ventas", () => {
     const resultado = totalizador(10, 100, "CA", "Material de escritorio");
     expect(resultado.descuentoCategoria).toEqual(15);
   });
+
   it("deberia aplicar un 3% de impuesto adicional para la categoria Muebles", () => {
     const resultado = totalizador(10, 100, "CA", "Muebles");
     expect(resultado.impuestoCategoria).toEqual(30);
   });
+
   it("deberia aplicar un 1% de descuento adicional para la categoria Electronicos", () => {
     const resultado = totalizador(10, 100, "CA", "Electronicos");
     expect(resultado.descuentoCategoria).toEqual(10);
   });
+
   it("deberia aplicar un 4% de impuesto adicional para la categoria Electronicos", () => {
     const resultado = totalizador(10, 100, "CA", "Electronicos");
     expect(resultado.impuestoCategoria).toEqual(40);
   });
+
   it("deberia aplicar un 2% de impuesto adicional para la categoria Vestimenta", () => {
-  const resultado = totalizador(10, 100, "CA", "Vestimenta");
-  expect(resultado.impuestoCategoria).toEqual(20);
-});
+    const resultado = totalizador(10, 100, "CA", "Vestimenta");
+    expect(resultado.impuestoCategoria).toEqual(20);
+  });
+
+  it("no deberia cobrar costo de envio si el peso volumetrico es entre 0 y 10", () => {
+    const resultado = totalizador(10, 10, "CA", "Varios", 5);
+    expect(resultado.costoEnvio).toEqual(0);
+  });
 });
