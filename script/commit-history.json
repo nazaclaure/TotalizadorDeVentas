@@ -1121,18 +1121,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6257ce9df0c7f4a6b051991a20cdd785c7f64feb",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-09-09T05:52:31.000Z",
       "message": "fix: resetear estado y categoria a su valor por defecto al cancelar compra",
-      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/6257ce9df0c7f4a6b051991a20cdd785c7f64feb"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
       "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-09-10T02:39:57.000Z",
+      "message": "feat: agregar mensaje inicial en el area de resultados",
+      "url": "https://github.com/nazaclaure/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
+      "date": "2026-09-10"
     },
     "coverage": 100,
     "test_count": 42,

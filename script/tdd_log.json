@@ -1170,9 +1170,15 @@
     "testId": 58
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6257ce9df0c7f4a6b051991a20cdd785c7f64feb",
     "commitName": "fix: resetear estado y categoria a su valor por defecto al cancelar compra",
     "commitTimestamp": 1788933152553,
     "testId": 59
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar mensaje inicial en el area de resultados",
+    "commitTimestamp": 1789007999960,
+    "testId": 60
   }
 ]
